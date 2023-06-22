@@ -1,11 +1,19 @@
-import Navbar from "./Navbar";
+
+import Home from "./components/page/home/Home";
+
+
+
+
+
+
 function App() {
-  
-  return <div>
-    <Navbar />
+  return ( 
+    <Home />
+   
+
+
     
-    <h1>hola</h1>
-    </div>;
+  )
   
 }
 
