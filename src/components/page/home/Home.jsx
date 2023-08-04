@@ -1,7 +1,7 @@
 
 
-import { Navbar } from "../../layout/Navbar"
-import ItemList from "../itemList/ItemList"
+// import { Navbar } from "../../layout/Navbar"
+// import ItemList from "../itemList/ItemList"
 
 
 
@@ -10,12 +10,9 @@ const Home = () => {
    
 
 
-  return ( <>
+  return ( 
    
-    <Navbar />
-    <ItemList saludo = {"Bienvenido a AGUITA"} />
-    
-    </>
+   <Home />
    
   )
 }
