@@ -15,7 +15,7 @@ const Navbar = () => {
           <Button color='inherit'><Link to="/">Todas</Link></Button>
           <Button color='inherit'><Link to="/category/bidon">Bidón</Link></Button>
           <Button color='inherit'><Link to="/category/soporte">Soporte</Link></Button>
-          <CardWidget />
+          <Link to="/cart"><CardWidget /></Link>
 
         </Toolbar>
       </AppBar>
